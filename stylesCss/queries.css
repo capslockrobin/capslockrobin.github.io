@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1280px) {
+  .headerAndMain{
+    margin-left: 1rem;
+    margin-right: 1rem; 
+  }
+
+  footer{
+    padding: 0 1rem;
+    padding-top: 2rem;
+  }
+  .invisible{
+    display: none;
+  }
+
+  .boxFirst{
+    flex: 1;
+  }
+
+  .card{
+    margin-top: 0.5rem;
+    margin-right: 0.3rem;
+  }
+  .noMargin{
+    margin-right: 0;
+  }
+
+  .lastCardNoRightMargin{
+    margin-right: 0;
+}
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+ .settingsBox{
+   flex-direction: column;
+ }
+ .endLinkBox{
+   justify-content: space-around;
+ }
+  .linkBox{
+    width: 12rem;
+  }
+
+  .paddingLinkBox{
+    padding-left: 5rem;
+  }
+
+  .centerText{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hiddenSerach{
+    display: inline;
+  }
+
+  .headerItemSearch{
+    display: none;
+  }
+
+  .logoItem{
+    min-width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  header{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fontItem{
+    font-size: 14px;
+  }
+
+  .box{
+    padding: 1rem;
+  }
+
+  .settings{
+    width: 100%;
+  }
+
+    .settings button{
+    width: 100%;
+  }
+
+  .changeToColumn{
+    flex-direction: column;
+    
+  }
+
+  .frontCard{
+    border: none;
+    margin-top: 0.3rem;
+    margin-right: 0;
+  }
+  
+  .awesomeStaySize{
+    font-size:24px;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+ .invisible800{
+   display: none;
+ }
+ .FirstBox{
+   flex-direction: column;
+   align-items: flex-start;
+  
+ }
+
+ .cards{
+   flex-wrap: wrap;
+   width: 100%;
+ }
+ .card{
+   min-width: 49%;
+ }
+
+ .noMargin800{
+   margin-right: 0;
+ }
+
+ .noWrap{
+   min-width: 30%;
+ }
+
+ .wrap450{
+   min-width: 10%;
+ }
+
+ .boxContent{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   padding-left: 1rem;
+   margin-left: 0;
+ }
+
+ 
+}
+
+@media only screen and (max-width: 450px) {
+ 
+  .linkBox{
+    width: 9rem;
+  } 
+  .wrap450{
+    flex-wrap: wrap;
+    min-width: 49%;
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  .bold{
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .box{
+    font-size: 14px;
+  }
+  .headerItem{
+    font-size: 14px;
+  }
+}
