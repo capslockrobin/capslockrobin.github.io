@@ -1,0 +1,17 @@
+.cards {
+    margin-top: 0rem;  
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.card {
+     margin-right: 0.8rem;
+     margin-top: 0.8rem;
+     flex: 1;
+}
+
+.lastCardNoRightMargin{
+    margin-right: 0;
+}

@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./images/favicon.png">
     <title>SVT Play</title>
-    <link rel="stylesheet" href="./stylesCss/style.css">
+    <!-- my stylesheets -->
+    <link rel="stylesheet" href="./stylesCss/baseCss.css">
+    <link rel="stylesheet" href="./stylesCss/header.css">
+    <link rel="stylesheet" href="./stylesCss/main.css">
+    <link rel="stylesheet" href="./stylesCss/footer.css">
+    <link rel="stylesheet" href="./stylesCss/card.css">
     <link rel="stylesheet" href="./stylesCss/queries.css">
+    <!-- fontawesome script for icon -->
     <script src="https://kit.fontawesome.com/850b3e3263.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
-</head>
+    <!-- script to rotate fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script></head>
 <body>
-    <header class="headerAndMain">
+    <!-- header menu  -->
+    <header>
         <span class="logoItem">
             <img class="logo" src="./images/svtlogo.png" alt="SVT Play">
         </span>
@@ -32,7 +39,9 @@
             <p>SÖK</p>
         </span>
     </header>
-    <main class="headerAndMain">
+    <!-- main  -->
+    <main>
+        <!-- first front box -->
         <div class="FirstBox">
             <div class="boxFirst">
                 <img src="./images/hocky.jpg" alt="hocky">
@@ -43,60 +52,61 @@
                 <p class="firstTextPadding">Tre Kronor jagar sin första seger i turneringen</p>
             </div>
         </div>
-
+        <!-- flexbox that changes to column and hide or show div depening on screen -->
         <div class="cards changeToColumn">
-                <div class="card frontCard firstCard">
-                    <div class="photo">
-                        <img src="./images/hockey2.jpg" alt="">
-                    </div>
-                    <div class="content contentPadding">
-                        <p>ISHOCKEY-VMe</p>
-                        <P class="bold">Finland - Norge</P>
-                        <P>Gruppspelsmatch mellan Finland och Norge</P>
-                    </div>
+            <div class="card frontCard">
+                 <!-- firstcard -->
+                <div>
+                    <img src="./images/hockey2.jpg" alt="">
                 </div>
-                <div class="card frontCard noMargin800">
-                    <div class="photo">
-                        <img src="./images/allt_vi _döljer.jpg" alt="">
-                    </div>
-                    <div class="content contentPadding">
-                        <p>NY BRITTISK DRAMASERIE</p>
-                        <p class="bold">Allt vi döljer</p>
-                        <P>Fyra människor, ett hus – fullt av hemligheter, kriser och förhoppningar</P>
-                    </div>
+                <div class="content contentPadding">
+                    <p>ISHOCKEY-VM</p>
+                    <P class="bold">Finland - Norge</P>
+                    <P>Gruppspelsmatch mellan Finland och Norge</P>
                 </div>
-                  <div class="card frontCard">
-                    <div class="photo">
-                        <img src="./images/Israel.jpg" alt="" >
-                    </div>
-                    <div class="content contentPadding" >
-                        <p>ISRAEL-PALESTINA</p>
-                        <p class="bold">Nyhetsflödet</p>
-                        <p>Uppdatera dig kring de stora nyhetshändelserna</p>
-                    </div>
+            </div>
+            <div class="card frontCard noMargin800">
+                <div>
+                    <img src="./images/allt_vi _döljer.jpg" alt="">
                 </div>
-                  <div class="card frontCard noMargin">
-                    <div class="photo">
-                        <img src="./images/bodgård.jpg" alt="">
-                    </div>
-                    <div class="content contentPadding">
-                        <p>SE TVÅ SÄSONGER</p>
-                        <p class="bold">Hjälp, vi har köpt en bondgård!</p>
+                <div class="content contentPadding">
+                    <p>NY BRITTISK DRAMASERIE</p>
+                    <p class="bold">Allt vi döljer</p>
+                    <P>Fyra människor, ett hus – fullt av hemligheter, kriser och förhoppningar</P>
+                </div>
+            </div>
+                <div class="card frontCard">
+                <div>
+                    <img src="./images/Israel.jpg" alt="" >
+                </div>
+                <div class="content contentPadding" >
+                    <p>ISRAEL-PALESTINA</p>
+                    <p class="bold">Nyhetsflödet</p>
+                    <p>Uppdatera dig kring de stora nyhetshändelserna</p>
+                </div>
+            </div>
+                <div class="card frontCard noMargin">
+                <div>
+                    <img src="./images/bodgård.jpg" alt="">
+                </div>
+                <div class="content contentPadding">
+                    <p>SE TVÅ SÄSONGER</p>
+                    <p class="bold">Hjälp, vi har köpt en bondgård!</p>
                         <p>Brita och Kalle har flyttat till landet och försöker leva det riktiga gårdslivet</p>
-                    </div>
                 </div>
-                  <div class="card frontCard invisible lastCardNoRightMargin">
-                    <div class="photo">
-                        <img src="./images/Dokumentär.jpg" alt="">
-                    </div>
-                    <div class="content contentPadding">
-                        <p>SE HELA SERIEN</p>
-                        <p class="bold">De utvalda barnen</p>
-                        <p>Vad var det egentligen som hände på den där Waldorfskolan?</p>
-                    </div>
+            </div>
+                <div class="card frontCard invisible lastCardNoRightMargin">
+                <div>
+                    <img src="./images/Dokumentär.jpg" alt="">
                 </div>
+                <div class="content contentPadding">
+                    <p>SE HELA SERIEN</p>
+                    <p class="bold">De utvalda barnen</p>
+                    <p>Vad var det egentligen som hände på den där Waldorfskolan?</p>
+                </div>
+            </div>
         </div>
-
+        <!-- theme, this example is about popular, in the original site it contans many different grenre, but its the same -->
         <div class="themeBox">
             <span class="theme">
                 <span>Populärt</span>
@@ -106,10 +116,10 @@
                <i class="fas fa-grip-horizontal"></i>
             </span>
         </div>
-
+        <!-- cards to grenre -->
         <div class="cards">
             <div class="card noWrap">
-                <div class="photo">
+                <div>
                     <img src="./images/Eurovision.jpg" alt="Eurovision">
                 </div>
                 <div class="content">
@@ -119,7 +129,7 @@
                 </div>
             </div>
             <div class="card noWrap">
-                <div class="photo">
+                <div>
                     <img src="./images/Vem_bor_här.jpg" alt="Vem_bor_här">
                 </div>
                 <div class="content">
@@ -128,7 +138,7 @@
                 </div>
             </div>
             <div class="card noWrap noMargin800">
-                <div class="photo">
+                <div>
                     <img src="./images/Dokumentär.jpg" alt="Dokumentär">
                 </div>
                 <div class="content">
@@ -137,7 +147,7 @@
                 </div>
             </div>
             <div class="card invisible800 noWrap noMargin">
-                <div class="photo">
+                <div>
                     <img src="./images/McLeods.jpg" alt="McLeods">
                 </div>
                 <div class="content">
@@ -146,7 +156,7 @@
                 </div>
             </div>
             <div class="card invisible noWrap lastCardNoRightMargin">
-                <div class="photo">
+                <div>
                     <img src="./images/Line_of_duty.jpg" alt="Line_of_duty">
                 </div>
                 <div class="content">
@@ -154,13 +164,14 @@
                     <p>Avsnitt 3</p>
                 </div>
             </div>
-
         </div>
     </main>
+    <!-- footer with black background -->
     <footer>
+        <!-- flexbox to show cards, typical footer items -->
         <div class="cards">
             <div class="card">
-                <div class="photo">
+                <div>
                     <img src="./images/nyhetsbrev.jpg" alt="">
                 </div>
                 <div class="content">
@@ -170,7 +181,7 @@
                 </div>
             </div>
             <div class="card noMargin800">
-                <div class="photo">
+                <div>
                     <img src="./images/sprakplay.jpg" alt="">
                 </div>
                 <div class="content">
@@ -180,7 +191,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="photo">
+                <div>
                     <img src="./images/barnplay.jpg" alt="">
                 </div>
                 <div class="content">
@@ -190,7 +201,7 @@
                 </div>
             </div>
             <div class="card lastCardNoRightMargin">
-                <div class="photo">
+                <div>
                     <img src="./images/atv-kollage.jpg" alt="">
                 </div>
                 <div class="content">
@@ -202,8 +213,10 @@
         </div>
         <div>
             <div>
+                <!-- line to divide footer in visual sections -->
                 <hr class="line">
             </div>
+            <!-- grenre flexbox, change margin and when to wrap depending on screen -->
            <div class="cards">
                <div class="card wrap450">
                     <p class="paddingText">Drama</p>
@@ -231,84 +244,87 @@
                </div>
            </div>
             <div>
+                <!-- line to divide footer in visual sections -->
                 <hr class="line">
             </div>
+        </div>
+
+        <!-- just an centerd text  -->
+        <div class="centerText">
+            <span>Se dina favoritprogram på</span>
+            <span> SVT Play – När och där du vill</span>
+        </div>
+        <!-- flexbox to show fontawesome icon and some links, change size depening on screen  -->
+        <div class="deviceBox">
+            <div class="box">
+                <div>
+                    <i class='fas fa-laptop fontItem awesomeStaySize'></i>
+                </div>
+                <div class="textSpace">
+                    <i class="fas fa-external-link-alt " ></i>
+                    <span class="textDevice">Dator</span>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <i  class='fas fa-mobile-alt fontItem awesomeStaySize'></i>
+                    <i class="fas fa-tablet-alt fa-flip-horizontal fontItem awesomeStaySize " data-fa-transform="rotate-90"></i>
+                </div>
+                <div class="textSpace">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span class="textDevice">Mobil & platta</span>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <i class='fas fa-desktop fontItem awesomeStaySize' ></i>
+                </div>
+                <div class="textSpace">
+                    <i class="fas fa-external-link-alt "></i>
+                    <span class="textDevice">TV</span>
+                </div>
+            </div>  
         </div>
         <div>
-            <div class="centerText">
-                <span>Se dina favoritprogram på</span>
-                <span> SVT Play – När och där du vill</span>
-                <p class="endText"></p>
+             <!-- line to divide footer in visual sections -->
+            <hr class="line">
+        </div>
+        <!-- flexbox for logo and text  -->
+        <div class="svtFlexBox">
+            <div class="svtBox" >
+                <img src="https://www.svtstatic.se/play/play7/_next/static/images/svt-logo-white-87f695b7f2f785cf9289bdf2504f2b92.png" alt="logo">
             </div>
-            <div class="deviceBox">
-                <div class="box">
-                    <div>
-                        <i class='fas fa-laptop fontItem awesomeStaySize'></i>
-                    </div>
-                    <div class="textSpace">
-                        <i class="fas fa-external-link-alt " ></i>
-                        <span class="textDevice">Dator</span>
-                    </div>
-                </div>
-                <div class="box">
-                    <div>
-                        <i  class='fas fa-mobile-alt fontItem awesomeStaySize'></i>
-                        <i class="fas fa-tablet-alt fa-flip-horizontal fontItem awesomeStaySize" data-fa-transform="rotate-90"></i>
-                    </div>
-                    <div class="textSpace">
-                        <i class="fas fa-external-link-alt"></i>
-                        <span class="textDevice">Mobil & platta</span>
-                    </div>
-                </div>
-                <div class="box">
-                    <div>
-                        <i class='fas fa-desktop fontItem awesomeStaySize' ></i>
-                    </div>
-                    <div class="textSpace">
-                        <i class="fas fa-external-link-alt "></i>
-                        <span class="textDevice">TV</span>
-                    </div>
-                </div>   
-            </div>
-            <div>
-                <hr class="line">
-            </div>
-
-            <div class="svtFlexBox">
-                <div class="svtBox" >
-                    <img src="https://www.svtstatic.se/play/play7/_next/static/images/svt-logo-white-87f695b7f2f785cf9289bdf2504f2b92.png" alt="logo">
-                </div>
-                <div class="svtBox">
-                    <p>Sveriges Television AB</p>
-                </div>
-            </div>
-
-            <div class="settingsBox">
-                <div class="settings">
-                   <button><i class="fa fa-cog"></i> INSTÄLLNINGAR</button>
-                </div>
-                <div class="settings">
-                    <span>
-                        <button><i class="fas fa-external-link-alt"></i> KONTAKT</button>
-                    </span>
-                </div>
-            </div>
-
-            <div class="endLinkBox">
-                <div class="linkBox">
-                    <a href="https://www.svt.se"><i class="fas fa-external-link-alt"></i>svt.se</a>
-                </div>
-                <div class="linkBox paddingLinkBox">
-                    <a href="https://nyhetsbrev.svtplay.se/prenumerera/?utm_source=svtplay&utm_medium=footer-cta"><i class="fas fa-external-link-alt"></i>Nyhetsbrev</a>
-                </div>
-                <div class="linkBox">
-                    <a href="https://kontakt.svt.se/guide/tillganglighet"><i class="fas fa-external-link-alt"></i>Tillgängligt i SVT Play</a>
-                </div>
-                <div class="linkBox paddingLinkBox">
-                    <a href="https://kontakt.svt.se/guide/cookies-och-personuppgifter"><i class="fas fa-external-link-alt"></i>Om cookies</a>
-                </div>
+            <div class="svtBox">
+                <p>Sveriges Television AB</p>
             </div>
         </div>
+        <!-- flexbox for 2 buttoms -->
+        <div class="settingsBox">
+            <div class="settings">
+                <button><i class="fa fa-cog"></i> INSTÄLLNINGAR</button>
+            </div>
+            <div class="settings">
+                <span>
+                    <button><i class="fas fa-external-link-alt"></i> KONTAKT</button>
+                </span>
+            </div>
+        </div>
+        <!-- flexbox for end links -->
+        <div class="endLinkBox">
+            <div class="linkBox">
+                <a href="https://www.svt.se"><i class="fas fa-external-link-alt"></i>svt.se</a>
+            </div>
+            <div class="linkBox paddingLinkBox">
+                <a href="https://nyhetsbrev.svtplay.se/prenumerera/?utm_source=svtplay&utm_medium=footer-cta"><i class="fas fa-external-link-alt"></i>Nyhetsbrev</a>
+            </div>
+            <div class="linkBox">
+                <a href="https://kontakt.svt.se/guide/tillganglighet"><i class="fas fa-external-link-alt"></i>Tillgängligt i SVT Play</a>
+            </div>
+            <div class="linkBox paddingLinkBox">
+                <a href="https://kontakt.svt.se/guide/cookies-och-personuppgifter"><i class="fas fa-external-link-alt"></i>Om cookies</a>
+            </div>
+        </div>
+        
     </footer>
 </body>
 </html>

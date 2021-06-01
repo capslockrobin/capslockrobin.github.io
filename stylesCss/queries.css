@@ -1,5 +1,11 @@
 @media only screen and (max-width: 1280px) {
-  .headerAndMain{
+
+  header{
+    margin-left: 1rem;
+    margin-right: 1rem; 
+  }
+
+  main{
     margin-left: 1rem;
     margin-right: 1rem; 
   }
@@ -142,6 +148,9 @@
    margin-left: 0;
  }
 
+  .firstTextPadding{
+    padding-left: 0;
+  } 
  
 }
 
