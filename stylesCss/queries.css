@@ -83,6 +83,7 @@
 
   .box{
     padding: 1rem;
+    margin-bottom: 2rem;
   }
 
   .settings{
@@ -151,6 +152,10 @@
   .firstTextPadding{
     padding-left: 0;
   } 
+
+  .frontCard{
+    min-height: 10rem;
+  }
  
 }
 
@@ -169,7 +174,7 @@
   }
 
   .bold{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
